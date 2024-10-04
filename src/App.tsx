@@ -69,7 +69,7 @@ export function App() {
     <main className='h-screen bg-zinc-950 text-zinc-300 flex items-center justify-center'>
       <form onSubmit={handleSubmit(createUser)} action="" className='flex flex-col gap-4 w-full max-w-xs'>
       <div className='flex flex-col gap-1'>
-          <label htmlFor="">name</label>
+          <label htmlFor="">Nome</label>
           <input 
             type="text" 
             className='border border-zinc-600 shadow-sm rounded h-10 px-3 bg-zinc-900 text-white'
